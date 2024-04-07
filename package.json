@@ -1,0 +1,36 @@
+{
+  "name": "metablog",
+  "version": "1.0.0",
+  "description": "A full Stack Blog App",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [
+    "Blog",
+    "App",
+    "Blogging",
+    "Website",
+    "React",
+    "Appwrite",
+    "Full",
+    "Stack",
+    "Blog",
+    "App"
+  ],
+  "author": "Pradosh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "appwrite": "^14.0.0",
+    "dotenv": "^16.4.5",
+    "parcel": "^2.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-toast": "^1.0.3"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
