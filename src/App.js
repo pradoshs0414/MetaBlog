@@ -41,16 +41,16 @@ const router = createBrowserRouter([
                 )
             },
             {
-                path: "/all-posts",
+                path: "/blogs",
                 element: (
-                    <AuthLayout authentication>
+                    <AuthLayout authentication ={false}>
                         {" "}
                         <FetchPosts />
                     </AuthLayout>
                 ),
             },
             {
-                path: "/add-post",
+                path: "/create",
                 element: (
                     <AuthLayout authentication>
                         {" "}

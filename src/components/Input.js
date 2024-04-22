@@ -9,8 +9,8 @@ const Input = React.forwardRef(function Input (
 {
     const id = useId()
     return (
-        <div>
-  <label htmlFor={id} className="block text-xs font-medium text-gray-700"> {label} </label>
+        <div className='flex gap-4 justify-center content-center '>
+  <label htmlFor={id} className="block text-lg font-medium text-gray-600 self-center"> {label} </label>
 
   <input
     type={type}

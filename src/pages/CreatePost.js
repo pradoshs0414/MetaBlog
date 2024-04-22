@@ -1,8 +1,9 @@
 import React from 'react'
+import CreateForm from '../components/CreateForm/CreateForm'
 
 function CreatePost() {
   return (
-    <div>CreatePost</div>
+    <CreateForm/>
   )
 }
 

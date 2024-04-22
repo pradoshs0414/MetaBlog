@@ -1,4 +1,4 @@
-import React,{useID} from 'react'
+import React, { useId } from 'react'
 
 function Select({
     label,
@@ -6,7 +6,7 @@ function Select({
     options,
     ...props
 },ref) {
-    const id = useID()
+    const id = useId()
   return (
     <div>
   <label htmlFor={id} className="block text-sm font-medium text-gray-900"> {label} </label>
